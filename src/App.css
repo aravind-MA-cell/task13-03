@@ -1,0 +1,47 @@
+.dropdown-parent{
+  margin-top: 20px;
+  margin-left: 50px;
+}
+
+.select-button{
+  padding: 15px 160px;
+  position: relative;
+}
+
+.dropdown-icon{
+  position: absolute;
+  right: 5px;
+  top: 0;
+  font-size: 30px;
+}
+
+.dropdown-options{
+  display: flex;
+  padding-top: 10px;
+  align-items: center;
+  
+}
+
+.dropdown-list{
+  border-top: none;
+  border-left: 1px solid gray;
+  border-bottom: 1px solid gray;
+  border-right: 1px solid gray;
+  padding: 10px 20px;
+  width: 282px;
+}
+
+input[type="checkbox"]{
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  margin-right: 15px;
+  accent-color: yellow;
+}
+
+@media (max-width: 400px){
+  .dropdown-parent{
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+}
