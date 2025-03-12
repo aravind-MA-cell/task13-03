@@ -4,8 +4,10 @@
 }
 
 .select-button{
-  padding: 15px 160px;
+  padding: 15px 161px;
   position: relative;
+  background-color: #fff;
+  border: 1px solid lightgrey;
 }
 
 .dropdown-icon{
@@ -19,16 +21,18 @@
   display: flex;
   padding-top: 10px;
   align-items: center;
-  
+  font-weight: 500;
+  color: gray;
 }
 
 .dropdown-list{
   border-top: none;
-  border-left: 1px solid gray;
-  border-bottom: 1px solid gray;
-  border-right: 1px solid gray;
+  border-left: 1px solid lightgrey;
+  border-bottom: 1px solid lightgrey;
+  border-right: 1px solid lightgrey;
   padding: 10px 20px;
   width: 282px;
+  border-radius: 5px;
 }
 
 input[type="checkbox"]{
@@ -36,7 +40,10 @@ input[type="checkbox"]{
   width: 25px;
   height: 25px;
   margin-right: 15px;
+  outline: 1px solid lightgrey;
   accent-color: yellow;
+  box-shadow: 0 #fff;
+  
 }
 
 @media (max-width: 400px){
