@@ -46,6 +46,18 @@ input[type="checkbox"]{
   
 }
 
+.dropdown-list{
+  display: inline-block;
+  top: 184px;
+  left: 212px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  z-index: 999;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+
+
 @media (max-width: 400px){
   .dropdown-parent{
     margin-top: 10px;
